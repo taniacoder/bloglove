@@ -1,0 +1,57 @@
+@mixin botones {
+	background-color: $orange;
+	display: block;
+	padding: 7px;
+	width: 60px;
+}
+@mixin boxpostmeta {
+	border: 1px solid $griss;
+    border-top: none;
+    padding: 0% 6%;
+    h3 {
+    	color: $griss;
+    }
+    h4 {
+    	color: $orange;
+    	font-size: 1em;
+    	font-weight: bold;
+    }
+}
+@mixin from {
+	h2 {
+		color: $orange;
+	}
+	img {
+		width: 100%;
+	}
+}
+@mixin bg-claro {
+	color: $white;
+	background-color: $orangeclaro;
+}
+@mixin bgorange {
+	background-color: $orange;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid #fff 14px;
+    border-right: solid #fff 14px;
+}
+
+@mixin fontcomoon {
+	font-family: $font_beba;
+	color: $orange;
+}
+@mixin navcategory {
+		li {
+		background-color: $white;
+		font-family: $font_beba;
+		a:hover{
+			color: #fff;
+			background-color: $orange !important;
+		}
+		a:focus{
+			color: #fff;
+			background-color: $orange !important;
+		}
+	}
+}

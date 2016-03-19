@@ -1,0 +1,43 @@
+
+.header_bottom_area {
+	h3 {
+		margin-right: 1%;
+	}
+}
+
+.nav-pills {
+	margin-top: 2%;
+	li {
+		a {
+			color: $griss;
+		}
+	}
+}
+.nav-pills {
+	@include navcategory;
+} 
+
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+	background-color: $orange !important;
+}
+
+/*from portafolio*/
+
+.from_portafolio {
+	margin-top: 5%;
+	@include from;
+	img {
+		border: 1px solid $griss;
+		padding: 2px;
+	}	
+}
+.blog_post {
+	@include boxpostmeta;
+	border-top: 1px solid $griss;
+	margin-top: 10px;
+	h3 {
+		margin-top: 0px; 
+	}
+}

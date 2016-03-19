@@ -1,0 +1,36 @@
+.navbar-default {
+	background-color: $white;
+	padding: 1% 0 1% 0;
+	margin-bottom: 0px;
+	.navbar-nav > li {
+    padding-top: 2%; 
+}
+ }
+.navbar-default .navbar-nav > li > a {
+	font-family: $font_beba;
+    color: $griss;
+    &:hover {
+    	color: $orange;
+    	background-color: $white;
+    }
+    &:focus {
+    	background-color: $white;
+    	color: $orange !important;
+    }
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+	background-color: $white;
+	&:hover {
+		background-color: $white;
+	}
+}  
+
+.navbar-brand {
+	h1 {
+		color: $orange;
+		span {
+		color : $orangeclaro;
+		}
+	}
+}

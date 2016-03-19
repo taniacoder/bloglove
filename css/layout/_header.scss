@@ -1,0 +1,6 @@
+.bg-claro {
+	@include bg-claro;
+	.bg-orange {
+	@include bgorange;
+	}
+}

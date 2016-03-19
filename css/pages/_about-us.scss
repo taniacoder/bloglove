@@ -1,0 +1,20 @@
+.bio-author {
+	margin-top: 5%;
+	margin-right: 4%;
+	img {
+		width: 100%;
+		padding: 2px;
+		border: solid 1px $griss;
+	}
+}
+.text-orange {
+	padding: 6%;
+	color: $orange;
+	.line-orange {
+		margin-left: 4%;
+		margin-right: 3%;
+		background-color: $orange;
+		height: 135px;
+		width: 10px;
+	}
+}

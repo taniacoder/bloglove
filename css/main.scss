@@ -1,0 +1,48 @@
+@import "helpers/_mixin";
+@import "helpers/_variables";
+@import "base/_base";
+@import "layout/_slidebar";
+@import "layout/_header";
+@import "layout/_aside";
+@import "layout/_footer";
+@import "pages/_home";
+@import "pages/_portafolio";
+@import "pages/_blog";
+@import "pages/_about-us";
+@import "pages/_contact-us";
+
+
+h1, h2, h3, h4, h5, {
+	font-family: $font_beba;
+}
+
+/*slider*/
+.mg-auto {
+	margin: auto;
+} 
+.ei-slider-large {
+	img {
+		width: 100%;
+	}
+}
+/*sec 1*/
+.service_area {
+	h2 {
+		font-size: 25px; 
+		color: $orange;
+	}
+}
+.btn {
+	@include botones;
+}
+/*from blog*/
+.from_blog {
+	@include from;
+}
+.from_works {
+	@include from;
+}
+
+.blog_post_meta {
+	@include boxpostmeta;
+}

@@ -1,0 +1,7 @@
+.footer_area {
+	@include bg-claro;
+	margin-top: 5%;
+	.single_footer_container {
+	@include bgorange;
+	}
+}
